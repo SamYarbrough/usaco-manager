@@ -1,7 +1,7 @@
 # usaco-manager
 C++ project generator and builder for USACO
 
-By default, builds with gcc for C++14
+By default, builds with gcc for C++14, for old-style problems (file input/output)
 
 ### Setup:
 - Clone the repo: `git clone https://github.com/SamYarbrough/usaco-manager.git`
@@ -29,3 +29,4 @@ By default, builds with gcc for C++14
 - support for java/python projects
 - config thru a file in `~/.config/usaco-manager/` rather than manually editing the bash script xD
 - template file in `~/.config/usaco-manager/`
+- default templates for newer, non-file input stream usaco problems
