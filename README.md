@@ -30,3 +30,4 @@ By default, builds with gcc for C++14, for old-style problems (file input/output
 - config thru a file in `~/.config/usaco-manager/` rather than manually editing the bash script xD
 - template file in `~/.config/usaco-manager/`
 - default templates for newer, non-file input stream usaco problems
+- automatically replace references to `template` within `template.cpp` with `program-name`
